@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 800;
+  src: url('avenirnext-ultralight.ttf?3ocs8m') format('truetype'), 
+       url('avenirnext-ultralight.svg?3ocs8m') format('svg'), 
+       url('avenirnext-ultralight.woff?3ocs8m') format('woff'),
+       url('avenirnext-ultralight.eot?#iefix3ocs8m') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Avenir Next Bold';
+  font-weight: 800;
+  src: url('avenirnext-regular.ttf?3ocs8m') format('truetype'), 
+       url('avenirnext-regular.svg?3ocs8m') format('svg'), 
+       url('avenirnext-regular.woff?3ocs8m') format('woff'),
+       url('avenirnext-regular.eot?#iefix3ocs8m') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Avenir Next DEMIBold';
+  font-weight: 800;
+  src: url('avenirnext-demibold.ttf?3ocs8m') format('truetype'), 
+       url('avenirnext-demibold.svg?3ocs8m') format('svg'), 
+       url('avenirnext-demibold.woff?3ocs8m') format('woff'),
+       url('avenirnext-demibold.eot?#iefix3ocs8m') format('embedded-opentype');
+}
+
+body,section,h1,h2,h3,h4,h5,p,div,a,em,blockquote{
+    font-family: 'Avenir Next', sans-serif!important;
+    font-weight: 800;
+}
+
+strong,span,label,li,tr,td,table{
+    font-family: 'Avenir Next Bold', sans-serif!important;
+    font-weight: bolder;
+}
+
+.demibold,th{
+    font-family: 'Avenir Next DEMIBold', sans-serif!important;
+    font-weight: bolder;
+}
+
+.dafont{
+    font-family: 'Avenir Next', sans-serif!important;
+    font-weight: 800;
+}
